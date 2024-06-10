@@ -11,7 +11,9 @@ export const metadata: Metadata = {
   description: "Arma tu prediccion",
   authors: { name: "Nicolas Battaglia" },
   keywords: ["Next.js", "React", "JavaScript", "Copa America"],
-  other: { image: "https://fixture-copa-america.vercel.app/img/front.png" },
+  other: {
+    image: ["og:image", "https://fixture-copa-america.vercel.app/img/front.png"],
+  },
 }
 
 export default function RootLayout({
