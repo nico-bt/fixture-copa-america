@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Copa America 2024",
   description: "Arma tu prediccion",
+  authors: { name: "Nicolas Battaglia" },
+  keywords: ["Next.js", "React", "JavaScript", "Copa America"],
+  other: { image: "https://fixture-copa-america.vercel.app/img/front.png" },
 }
 
 export default function RootLayout({
