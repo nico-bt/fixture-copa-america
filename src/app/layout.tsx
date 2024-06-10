@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   authors: { name: "Nicolas Battaglia" },
   keywords: ["Next.js", "React", "JavaScript", "Copa America"],
   other: {
-    image: ["og:image", "https://fixture-copa-america.vercel.app/img/front.png"],
+    ["og:image"]: "https://fixture-copa-america.vercel.app/img/front.png",
   },
 }
 
